@@ -31,4 +31,7 @@ La simulación se configura y se inicializa mediante archivos JSON. La interfaz 
 * **Patrones de Diseño:**
     * **Observer:** Para notificar a la GUI (Vista) los cambios en el simulador (Modelo).
     * **Factory (Builder-based):** Para la creación de entidades (animales, regiones).
-    * **Strategy
+    * **Strategy:** Para definir diferentes comportamientos de selección de animales (ej. `SelectClosest`, `SelectFirst`).
+* **Interfaz Gráfica (GUI):** Java Swing
+* **Estructuras de Datos:** Uso de Genéricos y Colecciones de Java.
+* **Serialización:** Lectura y procesamiento de datos en formato JSON.
